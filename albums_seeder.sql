@@ -35,3 +35,13 @@ VALUES('Michael Jackson', 'Thriller', '1982', '47.3', 'Pop, rock, R&B'),
 ('Guns N'' Roses', 'Appetite for Destruction', '21.9', '47.3', 'Hard rock')
 ;
 
+-- Open up albums_seeder.sql, after your USE statement, add a TRUNCATE query to delete all records from the table before inserting.
+-- Test your change and make sure you no longer get any duplicate records when running albums_seeder.sql.
+-- Create a file called delete_exercises.sql.
+-- Write SELECT statements for:
+-- Albums released after 1991
+-- Albums with the genre 'disco'
+-- Albums by 'Whitney Houston' (...or maybe an artist of your choice)
+-- Make sure to put appropriate captions before each SELECT.
+-- Convert the SELECT statements to DELETE.
+-- Use the MySQL command line client to make sure your records really were removed.
